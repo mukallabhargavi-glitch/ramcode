@@ -51,8 +51,8 @@ endmodule
 // Testbench for FIFO
 
 module tb;
-  parameter depth = 8;
-  parameter width = 8;
+  parameter depth = 16;
+  parameter width = 16;
 
   reg clk, rst, w_en, r_en;
   reg [width-1:0] datain;
