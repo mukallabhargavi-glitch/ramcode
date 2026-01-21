@@ -1,6 +1,6 @@
 
 
-module test #(parameter depth=8,width=8)
+module test #(parameter depth=16,width=16)
   (input clk,rst,w_en,r_en,[width-1:0]datain ,output reg [width-1:0]dataout, full,empty);
   
  // input clk,rst,w_en,r_en,[width-1:0]datain;
